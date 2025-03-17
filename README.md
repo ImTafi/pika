@@ -142,4 +142,8 @@ namespace Pikachu
 
                     // Di chuyển Pikachu sang trái
 
+/ Kiểm tra xem người chơi có thắng game hay không
+
+            if (IsWin())
+
                     Pikachu.X -= 50;
