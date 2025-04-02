@@ -146,4 +146,7 @@ namespace Pikachu
 
             if (IsWin())
 
+gr.FillRectangle(Brushes.Yellow, cell);
+
+                gr.FillRectangle(Brushes.Black, cell, new Rectangle(1, 1, 48, 48));
                     Pikachu.X -= 50;
